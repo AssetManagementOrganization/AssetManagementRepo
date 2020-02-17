@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Problem" max_length="40" name="x_445397_assetmana_problem" type="collection">
+        <element label="Asset" max_length="32" name="asset" reference="x_445397_assetmana_asset" type="reference"/>
+        <element label="Description" max_length="200" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" display="true" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-Critical" value="1"/>
+                <element inactive_on_update="false" label="2-High" value="2"/>
+                <element inactive_on_update="false" label="3-Moderate" value="3"/>
+                <element inactive_on_update="false" label="4-Low" value="4"/>
+                <element inactive_on_update="false" label="5-Planning" value="5"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="x_445397_assetmana_user" type="reference"/>
+        <index name="index">
+            <element name="asset"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

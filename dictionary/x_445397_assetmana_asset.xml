@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Asset" max_length="40" name="x_445397_assetmana_asset" type="collection">
+        <element display="true" label="Assigned To" max_length="32" name="assigned_to" reference="x_445397_assetmana_user" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Charger" value="2"/>
+                <element inactive_on_update="false" label="Laptop" value="1"/>
+                <element inactive_on_update="false" label="Mouse" value="3"/>
+                <element inactive_on_update="false" label="Virtual Machine" value="4"/>
+            </choice>
+        </element>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="10" label="Serial No" max_length="40" name="serial_no" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned" value="1"/>
+                <element inactive_on_update="false" label="Not Assigned" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
