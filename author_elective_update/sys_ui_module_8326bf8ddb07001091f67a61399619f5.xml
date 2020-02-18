@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>Assets</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_445397_assetmana.asset_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 10:36:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8326bf8ddb07001091f67a61399619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assets</sys_name>
+        <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+        <sys_update_name>sys_ui_module_8326bf8ddb07001091f67a61399619f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 10:36:18</sys_updated_on>
+        <table>x_445397_assetmana_asset</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AssetManagement">28a06301db070010cb63af264896194d</application>
+        <file_path/>
+        <instance_id>14a8bf74dbdd77c0f492c597059619c1</instance_id>
+        <instance_name>dev85472</instance_name>
+        <name>sys_ui_module_8326bf8ddb07001091f67a61399619f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>Assets</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_445397_assetmana.asset_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 10:36:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8326bf8ddb07001091f67a61399619f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assets</sys_name><sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package><sys_policy/><sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope><sys_update_name>sys_ui_module_8326bf8ddb07001091f67a61399619f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 10:36:18</sys_updated_on><table>x_445397_assetmana_asset</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>239936281</payload_hash>
+        <record_name>Assets</record_name>
+        <reverted_from/>
+        <source>efc3c015db470010cb63af2648961939</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:43:18</sys_created_on>
+        <sys_id>0dbc739ddb030010cb63af264896191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17056d2769c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:43:18</sys_updated_on>
+        <type>Module</type>
+        <update_guid>89bc739d070300108f2ef8100b60c71e</update_guid>
+        <update_guid_history>89bc739d070300108f2ef8100b60c71e:0,47c38891c6870010cff9237d69ca4d66:1343170579</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:45:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>6152d27acca84f48bae0494f75418721</sys_id>
+        <sys_metadata>8326bf8ddb07001091f67a61399619f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assets</sys_name>
+        <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+        <sys_scope_delete display_value="">2933c2917e554198936a2a14aa2fca90</sys_scope_delete>
+        <sys_update_name>sys_ui_module_8326bf8ddb07001091f67a61399619f5</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_8326bf8ddb07001091f67a61399619f5">0dbc739ddb030010cb63af264896191e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:45:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

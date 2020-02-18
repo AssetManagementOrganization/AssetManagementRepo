@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-02-17 10:36:19</sys_created_on>
-        <sys_id>85c3c491db870010cb63af2648961945</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2020-02-18 05:46:37</sys_created_on>
+        <sys_id>6d7dffdddb030010cb63af26489619f8</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Number</sys_name>
         <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
         <sys_policy/>
         <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
         <sys_update_name>sys_dictionary_x_445397_assetmana_asset_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-17 11:35:45</sys_updated_on>
+        <sys_updated_on>2020-02-18 06:49:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

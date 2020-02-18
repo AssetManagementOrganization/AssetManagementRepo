@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Home Page Employee - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="home_page_employee">362bf71ddb030010cb63af2648961905</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:37:55</sys_created_on>
+        <sys_id>de7b3b1ddb030010cb63af264896192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Page Employee - Container 2</sys_name>
+        <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+        <sys_update_name>sp_container_de7b3b1ddb030010cb63af264896192f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:37:55</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AssetManagement">28a06301db070010cb63af264896194d</application>
+        <file_path/>
+        <instance_id>14a8bf74dbdd77c0f492c597059619c1</instance_id>
+        <instance_name>dev85472</instance_name>
+        <name>sp_container_de7b3b1ddb030010cb63af264896192f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Home Page Employee - Container 2</name><order>2</order><sp_page display_value="home_page_employee">362bf71ddb030010cb63af2648961905</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-18 05:37:55</sys_created_on><sys_id>de7b3b1ddb030010cb63af264896192f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home Page Employee - Container 2</sys_name><sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package><sys_policy/><sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope><sys_update_name>sp_container_de7b3b1ddb030010cb63af264896192f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-18 05:37:55</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1525607524</payload_hash>
+        <record_name>Home Page Employee - Container 2</record_name>
+        <reverted_from/>
+        <source>efc3c015db470010cb63af2648961939</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:37:55</sys_created_on>
+        <sys_id>d67b3b1ddb030010cb63af2648961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17056cd895c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:37:55</sys_updated_on>
+        <type>Container</type>
+        <update_guid>127b3b1d6a030010ca1998f3abd18431</update_guid>
+        <update_guid_history>127b3b1d6a030010ca1998f3abd18431:1525607524</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home Page Employee - Container 2">97db7f5ddb030010cb63af2648961957</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:39:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>51a0b04e97e64c9ebe6821563bcca2d1</sys_id>
+        <sys_metadata>de7b3b1ddb030010cb63af264896192f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home Page Employee - Container 2</sys_name>
+        <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+        <sys_scope_delete display_value="">2933c2917e554198936a2a14aa2fca90</sys_scope_delete>
+        <sys_update_name>sp_container_de7b3b1ddb030010cb63af264896192f</sys_update_name>
+        <sys_update_version display_value="sp_container_de7b3b1ddb030010cb63af264896192f">d67b3b1ddb030010cb63af2648961931</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:39:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

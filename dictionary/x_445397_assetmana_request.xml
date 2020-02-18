@@ -19,7 +19,7 @@
                 <element inactive_on_update="false" label="5-Planning" value="5"/>
             </choice>
         </element>
-        <element display="true" label="Project Manager" max_length="32" name="project_manager" reference="x_445397_assetmana_user" type="reference"/>
+        <element display="true" label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="3"/>
@@ -29,7 +29,7 @@
                 <element inactive_on_update="false" label="Requested" value="1"/>
             </choice>
         </element>
-        <element label="User" max_length="32" name="user" reference="x_445397_assetmana_user" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="project_manager"/>
         </index>

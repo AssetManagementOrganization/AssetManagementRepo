@@ -1,62 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_445397_assetmana_asset" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>category</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Laptop</label>
-            <language>en</language>
-            <name>x_445397_assetmana_asset</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-17 10:48:01</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3bb8bfcddb07001091f67a61399619a5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-17 10:48:40</sys_updated_on>
-            <value>1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>category</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Charger</label>
-            <language>en</language>
-            <name>x_445397_assetmana_asset</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-17 10:49:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>87d8fbcddb07001091f67a6139961965</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-17 10:49:08</sys_updated_on>
-            <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>category</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Mouse</label>
-            <language>en</language>
-            <name>x_445397_assetmana_asset</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-02-17 10:49:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5a19f78ddb07001091f67a6139961942</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-02-17 10:49:20</sys_updated_on>
-            <value>3</value>
-        </sys_choice>
+    <sys_choice action="DELETE" field="category" table="x_445397_assetmana_asset" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
@@ -93,4 +36,49 @@
             <sys_updated_on>2020-02-17 10:48:01</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AssetManagement">28a06301db070010cb63af264896194d</application>
+        <file_path/>
+        <instance_id>14a8bf74dbdd77c0f492c597059619c1</instance_id>
+        <instance_name>dev85472</instance_name>
+        <name>sys_choice_x_445397_assetmana_asset_category</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="category" table="x_445397_assetmana_asset" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>category</element><hint/><inactive>false</inactive><label>Virtual Machine</label><language>en</language><name>x_445397_assetmana_asset</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 10:49:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8d297381db47001091f67a613996192e</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 10:49:44</sys_updated_on><value>4</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>category</element><name>x_445397_assetmana_asset</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 10:48:01</sys_created_on><sys_id>f6d8f341db47001091f67a6139961942</sys_id><sys_mod_count>0</sys_mod_count><sys_name>category</sys_name><sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package><sys_policy/><sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope><sys_update_name>sys_choice_x_445397_assetmana_asset_category</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 10:48:01</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-1265992488</payload_hash>
+        <record_name>x_445397_assetmana_asset.category</record_name>
+        <reverted_from/>
+        <source>efc3c015db470010cb63af2648961939</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:45:28</sys_created_on>
+        <sys_id>b43df7dddb030010cb63af26489619dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17056d4733c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:45:28</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>303df7ddaf030010905a29713475c6dd</update_guid>
+        <update_guid_history>303df7ddaf030010905a29713475c6dd:-1265992488,f83df7dd9203001051b733da570e28da:1571189237,b43df7dd5f030010c5b57e4f097600d8:2017378283,a7c3c891b5870010f20345e79bec5c26:0,e7c3c89181870010dc7f7e8329852904:-541618838</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 05:45:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>f6d8f341db47001091f67a6139961942</sys_id>
+        <sys_metadata>f6d8f341db47001091f67a6139961942</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+        <sys_scope_delete display_value="">2933c2917e554198936a2a14aa2fca90</sys_scope_delete>
+        <sys_update_name>sys_choice_x_445397_assetmana_asset_category</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_445397_assetmana_asset_category">b43df7dddb030010cb63af26489619dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 05:45:28</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
