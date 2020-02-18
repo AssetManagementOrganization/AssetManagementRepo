@@ -18,8 +18,5 @@
                 <element inactive_on_update="false" label="Not Assigned" value="2"/>
             </choice>
         </element>
-        <index name="index">
-            <element name="assigned_to"/>
-        </index>
     </element>
 </database>

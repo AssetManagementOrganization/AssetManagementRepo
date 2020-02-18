@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Request" max_length="40" name="x_445397_assetmana_request" type="collection">
+    <element attributes="live_feed=false" label="Request" max_length="40" name="x_445397_assetmana_request" type="collection">
         <element choice="1" label="Asset Category" max_length="40" name="asset_category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Charger" value="2"/>
@@ -10,7 +10,7 @@
         </element>
         <element label="Due Date" max_length="40" name="due_date" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" display="true" label="Priority" max_length="40" name="priority" type="choice">
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1-Critical" value="1"/>
                 <element inactive_on_update="false" label="2-High" value="2"/>
@@ -19,6 +19,7 @@
                 <element inactive_on_update="false" label="5-Planning" value="5"/>
             </choice>
         </element>
+        <element display="true" label="Project Manager" max_length="32" name="project_manager" reference="x_445397_assetmana_user" type="reference"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" value="3"/>
@@ -30,6 +31,9 @@
         </element>
         <element label="User" max_length="32" name="user" reference="x_445397_assetmana_user" type="reference"/>
         <index name="index">
+            <element name="project_manager"/>
+        </index>
+        <index name="index2">
             <element name="user"/>
         </index>
     </element>

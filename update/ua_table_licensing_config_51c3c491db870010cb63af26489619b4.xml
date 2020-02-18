@@ -12,13 +12,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-02-17 11:22:20</sys_created_on>
-        <sys_id>a5b0c859db47001091f67a613996198d</sys_id>
+        <sys_id>51c3c491db870010cb63af26489619b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_445397_assetmana_problem</sys_name>
         <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
         <sys_policy/>
         <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_a5b0c859db47001091f67a613996198d</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_51c3c491db870010cb63af26489619b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-02-17 11:22:20</sys_updated_on>
     </ua_table_licensing_config>

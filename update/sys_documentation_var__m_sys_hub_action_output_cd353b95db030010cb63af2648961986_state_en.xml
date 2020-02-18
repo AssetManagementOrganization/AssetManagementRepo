@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state" label="State" language="en" table="var__m_sys_hub_action_output_cd353b95db030010cb63af2648961986">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_cd353b95db030010cb63af2648961986</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-18 05:10:32</sys_created_on>
+            <sys_id>19353b95db030010cb63af26489619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="AssetManagement" source="x_445397_assetmana">28a06301db070010cb63af264896194d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AssetManagement">28a06301db070010cb63af264896194d</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_cd353b95db030010cb63af2648961986_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-18 05:10:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
